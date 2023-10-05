@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './style.css'
+import './index.css'
 function App() {
 
   let [counterValue , setCounterValue ] = useState(10)
@@ -17,7 +17,6 @@ function App() {
     <button className='bg-slate-900 text-white border-2 border-slate-200 m-5 rounded-lg p-2 active:bg-slate-800'  onClick={addValue}>Increase Value</button>
     <button className='bg-slate-900 text-white border-2 border-slate-200 m-5 rounded-lg p-2 active:bg-slate-800' onClick={minusValue}>Decrease Value</button>
     </div>
-
     </div>
     
     </>
